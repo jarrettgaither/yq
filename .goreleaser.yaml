@@ -42,7 +42,7 @@ builds:
     no_unique_dist_dir: true
 
 release:
-  project_name: jarrett-yq
   github:
     owner: jarrettgaither
     name: yq
+    project_name: jarrett-yq
