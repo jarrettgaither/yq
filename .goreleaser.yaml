@@ -1,5 +1,5 @@
 version: 2
-
+project_name: jarrett-yq
 dist: build
 
 builds:
@@ -45,4 +45,3 @@ release:
   github:
     owner: jarrettgaither
     name: yq
-    project_name: jarrett-yq
