@@ -44,4 +44,4 @@ builds:
 release:
   github:
     owner: jarrettgaither
-    project_name: yq
+    name: yq
