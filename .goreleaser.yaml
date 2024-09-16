@@ -42,5 +42,6 @@ builds:
     no_unique_dist_dir: true
 
 release:
-  disable: true
-  skip_upload: true
+  github:
+    owner: jarrettgaither
+    name: yq
