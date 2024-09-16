@@ -1,0 +1,21 @@
+on:
+    workflow_dispatch:
+    push:
+      branches:
+        - master
+jobs:
+    hello-world:
+      needs: go-release
+      runs-on: self-hosted
+      steps:
+        - name: Run hello world
+          run: echo "Hello World!"
+    go-release:
+      runs-on: self-hosted
+      steps:
+       
+  
+        - name: Release
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          run: goreleaser release --rm-dist --snapshot
