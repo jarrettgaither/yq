@@ -1,5 +1,7 @@
 module github.com/mikefarah/yq/v4
 
+go 1.23.1
+
 require (
 	github.com/a8m/envsubst v1.4.2
 	github.com/alecthomas/participle/v2 v2.1.1
@@ -30,4 +32,3 @@ require (
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 )
 
-go 1.21
