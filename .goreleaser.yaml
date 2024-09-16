@@ -41,8 +41,6 @@ builds:
 
     no_unique_dist_dir: true
 
-project_name: jarrett_yq
-
 release:
   github:
     owner: jarrettgaither
