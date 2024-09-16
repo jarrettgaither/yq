@@ -18,4 +18,4 @@ jobs:
         - name: Release
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          run: goreleaser release --rm-dist --snapshot
+          run: goreleaser release --project-name jarrett-yq
